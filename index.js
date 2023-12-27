@@ -1,8 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const userRoutes = require("./ROUTES/userRoutes");
 const taskRoutes = require('./ROUTES/taskRoutes');
+const userRoutes = require('./ROUTES/userRoutes');
 require('dotenv').config();
 const PORT = 8000;
 require('./db')
